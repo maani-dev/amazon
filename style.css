@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.nav{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    border: 1.5px solid transparent;
+}
+.nav-logo:hover{
+    border: 1.5px solid white;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+
+
+/* box 2 */
+.add1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 20px;
+}
+.add2{
+    font-size: 1rem;
+    margin-left: 1px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-add:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box3 */
+.nav-search{
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-sel{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; 
+    border: none;
+}
+.search-inp{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    color: #0F1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; 
+}
+
+
+/* box4 */
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-sign:hover{
+    border: 1.5px solid white;
+}
+.nav-ret:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box5 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart:hover{
+    border: 1.5px solid white;
+}
+
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pan-opt{
+    width: 90%;
+    font-size: 0.85rem;
+}
+.pan-opt p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.pan-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/* shop section */
+
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 0px 5px 0px;
+    margin-top: 15px;
+}
+
+
+/* box images */
+
+.box-img{
+    height: 315px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.box-cont{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-cont h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-cont a{
+    color: #007185;
+    text-decoration: none;
+}
+.box-cont:hover{
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-pan1{
+    background-color: #37475a;
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-pan2{
+    background-color: #222f3d;
+    color: white;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul p{
+    margin-top: 10px;
+    font-weight: 600;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-pan3{
+    background-color:  #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.pan3-lang{
+    width: 60%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.lang{
+    background-color: #f3f3f3;
+    width: 90px;
+    height: 27px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    margin-left: 160px;
+}
+
+.currency{
+    background-color: #f3f3f3;
+    width: 160px;
+    height: 33px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    margin-left: 30px;
+}
+
+.foot-pan4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.pages a{
+    margin-left: 10px;
+}
+
+.copyright{
+    padding-top: 7px;
+}
